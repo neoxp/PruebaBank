@@ -18,7 +18,7 @@ import SwiftUI
 struct User: Codable, Identifiable {
     let id = UUID()
     let date: Date
-    let amount: Int?
-    let fee: Int?
+    let amount: Int!
+    let fee: Int!
     let descripcion: String
 }

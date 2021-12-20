@@ -31,14 +31,14 @@ struct ContentView: View {
     var body: some View {
        
         ZStack{
-        
-            NavigationView {
-                NavigationLink(destination: Text("Creado por Emilio Marques")
-                   
-                ){
-                    
-                    
-            List {
+                
+                    NavigationView {
+                        NavigationLink(destination: Text("Creado por Emilio Marques")
+                           
+                        ){
+                            
+                            
+                    List {
             
                 VStack{
                     Section{
@@ -126,7 +126,7 @@ struct ContentView: View {
                         Text("Date: 2018-07-24T21:29:11.000Z").foregroundColor(Color.gray)
                         Text("Amount: -161.56").foregroundColor(Color.red)
                         Text("Fee: -4.95").foregroundColor(Color.red)
-                        Text("Descripcion:null.")
+                        Text("Descripcion:null")
                     }
                     
                 }
@@ -167,7 +167,7 @@ struct ContentView: View {
                         Text("Date: 2018-07-28T14:14:17.000Z").foregroundColor(Color.gray)
                         Text("Amount: 96.56").foregroundColor(Color.green)
                         Text("").foregroundColor(Color.red)
-                        Text("Descripcion:")
+                        Text("Descripcion:null")
                     }
                     
                     Section{
@@ -204,7 +204,6 @@ struct ContentView: View {
         
     }
         }
-        
     }
 }
 
