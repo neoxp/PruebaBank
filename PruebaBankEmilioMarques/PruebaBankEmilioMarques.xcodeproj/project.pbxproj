@@ -81,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B2631232771BDA300858122 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8B5E29D0276F0A96003C3620 /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		8B5E298D276F0140003C3620 = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +112,11 @@
 		8B5E2998276F0140003C3620 /* PruebaBankEmilioMarques */ = {
 			isa = PBXGroup;
 			children = (
+				8B2631232771BDA300858122 /* view */,
 				8B5E29D2276F2192003C3620 /* Transation */,
 				8B5E29CB276F0371003C3620 /* DatosViewModel */,
 				8B5E29CA276F0364003C3620 /* DatosModel */,
 				8B5E2999276F0140003C3620 /* PruebaBankEmilioMarquesApp.swift */,
-				8B5E29D0276F0A96003C3620 /* ContentView.swift */,
 				8B5E299D276F0141003C3620 /* Assets.xcassets */,
 				8B5E29A2276F0141003C3620 /* Persistence.swift */,
 				8B5E29A4276F0141003C3620 /* PruebaBankEmilioMarques.xcdatamodeld */,

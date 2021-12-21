@@ -15,8 +15,14 @@
 import Foundation
 import SwiftUI
 
-struct User: Codable, Identifiable {
-    let id = UUID()
+struct JSONData: Decodable{
+    let users:[User]
+    
+}
+
+
+struct User:Decodable, Identifiable {
+    let id: Int
     let date: Date
     let amount: Int!
     let fee: Int!
