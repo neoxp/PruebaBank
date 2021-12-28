@@ -2,7 +2,7 @@
 //  DetailContentView.swift
 //  PruebaBankEmilioMarques
 //
-//  Created by Developer on 21/12/21.
+//  Created by Emilio Marqués on 21/12/21.
 //
 
 import SwiftUI
