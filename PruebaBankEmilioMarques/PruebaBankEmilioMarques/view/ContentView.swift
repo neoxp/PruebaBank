@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PruebaBankEmilioMarques
 //
-//  Created by Developer on 19/12/21.
+//  Created by Emilio Marqués on 19/12/21.
 //
 
 /*
